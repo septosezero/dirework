@@ -20,7 +20,7 @@ Add your custom jobs under the following line:
     Naval Cadet
 --]]
 TEAM_REPUBLICNAVY = DarkRP.createJob("Republic Cadet", {
-    color = Color(227, 168, 15, 255)
+    color = Color(227, 168, 15, 255),
     model = {"TBD"},
     description = [[The Republic Cadet is an Officer in Training of the Navy]],
     weapons = {"tbd", "tbd", "tbd"},
@@ -43,7 +43,7 @@ TEAM_REPUBLICNAVY = DarkRP.createJob("Republic Cadet", {
     Naval Crewman
 --]]
 TEAM_REPUBLICNAVY = DarkRP.createJob("Republic Crewman", {
-    color = Color(227, 168, 15, 255)
+    color = Color(227, 168, 15, 255),
     model = {"TBD"},
     description = [[The Republic Crewman is responsible for Flight Operations of the Republic Naval Forces]],
     weapons = {"tbd", "tbd", "tbd"},
@@ -66,7 +66,7 @@ TEAM_REPUBLICNAVY = DarkRP.createJob("Republic Crewman", {
     Naval Officer
 --]]
 TEAM_REPUBLICNAVY = DarkRP.createJob("Naval Officer", {
-    color = Color(227, 168, 15, 255)
+    color = Color(227, 168, 15, 255),
     model = {"TBD"},
     description = [[The Republic Cadet is an Officer in Training of the Navy]],
     weapons = {"tbd", "tbd", "tbd"},
@@ -89,7 +89,7 @@ TEAM_REPUBLICNAVY = DarkRP.createJob("Naval Officer", {
     Admiral of the Republic
 --]]
 TEAM_REPUBLICNAVY = DarkRP.createJob("Republic Admiral", {
-    color = Color(227, 168, 15, 255)
+    color = Color(227, 168, 15, 255),
     model = {"TBD"},
     description = [[The Republic Cadet is an Officer in Training of the Navy]],
     weapons = {"tbd", "tbd", "tbd"},
@@ -112,7 +112,7 @@ TEAM_REPUBLICNAVY = DarkRP.createJob("Republic Admiral", {
  Republic Trooper
 --]]
 TEAM_REPUBLICARMY = DarkRP.createJob("Republic Trooper", {
-    color = Color(227, 15, 15, 255),
+    color = Color(227, 168, 15, 255),
     model = {"TBD"},
     description = [[The Republic Trooper is the backbone of the Republic Army. This ground force is known for it's ability to defend and protect Citizens of the Republic.]],
     weapons = {"tbd", "tbd", "tbd"},
@@ -135,7 +135,7 @@ TEAM_REPUBLICARMY = DarkRP.createJob("Republic Trooper", {
  Republic Sergeant
 --]]
 TEAM_REPUBLICARMY = DarkRP.createJob("Republic Sergeant", {
-    color = Color(227, 15, 15, 255),
+    color = Color(227, 168, 15, 255),
     model = {"TBD"},
     description = [[The Republic Sergeant is a Non-Commissioned Officer in the Army of the Republic.]],
     weapons = {"tbd", "tbd", "tbd"},
@@ -159,7 +159,7 @@ TEAM_REPUBLICARMY = DarkRP.createJob("Republic Sergeant", {
  Republic Officer
 --]]
 TEAM_REPUBLICARMY = DarkRP.createJob("Army Officer", {
-    color = Color(227, 15, 15, 255),
+    color = Color(227, 168, 15, 255),
     model = {"TBD"},
     description = [[The Republic Officer is a Commissioned Officer in the Army of the Republic.]],
     weapons = {"tbd", "tbd", "tbd"},
@@ -182,7 +182,7 @@ TEAM_REPUBLICARMY = DarkRP.createJob("Army Officer", {
  Republic General
 --]]
 TEAM_REPUBLICARMY = DarkRP.createJob("Republic Army General", {
-    color = Color(227, 15, 15, 255),
+    color = Color(227, 168, 15, 255),
     model = {"TBD"},
     description = [[The leader of the Republic’s Ground Forces. ]],
     weapons = {"tbd", "tbd", "tbd"},
@@ -207,7 +207,7 @@ TEAM_REPUBLICARMY = DarkRP.createJob("Republic Army General", {
     	Jedi Padawan
 --]]
 TEAM_JEDIPADAWN = DarkRP.createJob("Jedi Padawan", {
-    color = Color(32, 138, 9, 255),
+    color = Color(222, 166, 6, 255),
     model = {"TBD"},
     description = [[The Jedi Padawan is an initiate of the Jedi Order, tasked with learning how to use the Force]],
     weapons = {"tbd", "tbd", "tbd"},
@@ -230,7 +230,7 @@ TEAM_JEDIPADAWN = DarkRP.createJob("Jedi Padawan", {
     	Jedi Knight
 --]]
 TEAM_JEDIORDER = DarkRP.createJob("Jedi Knight", {
-    color = Color(32, 138, 9, 255),
+    color = Color(222, 166, 6, 255),
     model = {"TBD"},
     description = [[The Jedi Knight is an adept of the Jedi Order, Tasked with training Padwans and defending the Republic]],
     weapons = {"tbd", "tbd", "tbd"},
@@ -253,7 +253,7 @@ TEAM_JEDIORDER = DarkRP.createJob("Jedi Knight", {
     	Jedi Master
 --]]
 TEAM_JEDIMASTER= DarkRP.createJob("Jedi Master", {
-    color = Color(32, 138, 9, 255),
+    color = Color(222, 166, 6, 255),
     model = {"TBD"},
     description = [[The Jedi Master is an elite of the Jedi Order, having successfully trained a Padwan to Knighthood.]],
     weapons = {"tbd", "tbd", "tbd"},
@@ -276,7 +276,7 @@ TEAM_JEDIMASTER= DarkRP.createJob("Jedi Master", {
     	Citizen
 --]]
 TEAM_CITIZEN = DarkRP.createJob("Galactic Citizen", {
-    color = Color(237, 242, 236, 255),
+    color = Color(28, 227, 227, 255),
     model = {"TBD"},
     description = [[A citizen of the Galaxy. Earn Credits!]],
     weapons = {"tbd", "tbd", "tbd"},
