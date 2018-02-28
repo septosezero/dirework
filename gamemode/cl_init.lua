@@ -1,8 +1,8 @@
 hook.Run("DarkRPStartedLoading")
 
-GM.Version = "2.7.0"
-GM.Name = "DarkRP"
-GM.Author = "By FPtje Falco et al."
+GM.Version = "1.0"
+GM.Name = "starwarsrp"
+GM.Author = "By Grandmaster Yoda"
 
 DeriveGamemode("sandbox")
 DEFINE_BASECLASS("gamemode_sandbox")
