@@ -20,4 +20,77 @@ DarkRP.createCategory{
 
 Add new categories under the next line!
 ---------------------------------------------------------------------------]]
+--[[
+        Grand Republic
+--]]
+DarkRP.createCategory{
+    name = "Republic Navy",
+    categorises = "jobs",
+    startExpanded = false,
+    color = Color(34, 85, 85, 255),
+    canSee = function(ply) return true end,
+    sortOrder = 1
+}
 
+DarkRP.createCategory{
+    name = "Republic Army",
+    categorises = "jobs",
+    startExpanded = false,
+    color = Color(34, 85, 85, 255),
+    canSee = function(ply) return true end,
+    sortOrder = 2
+}
+
+DarkRP.createCategory{
+    name = "Jedi Order",
+    categorises = "jobs",
+    startExpanded = false,
+    color = Color(34, 85, 85, 255),
+    canSee = function(ply) return true end,
+    sortOrder = 3
+}
+
+DarkRP.createCategory{
+    name = "Galactic Citizens",
+    categorises = "jobs",
+    startExpanded = false,
+    color = Color(34, 85, 85, 255),
+    canSee = function(ply) return true end,
+    sortOrder = 4
+}
+
+DarkRP.createCategory{
+    name = "Galactic Denizens",
+    categorises = "jobs",
+    startExpanded = false,
+    color = Color(34, 85, 85, 255),
+    canSee = function(ply) return true end,
+    sortOrder = 5
+}
+
+DarkRP.createCategory{
+    name = "Sith Navy",
+    categorises = "jobs",
+    startExpanded = false,
+    color = Color(34, 85, 85, 255),
+    canSee = function(ply) return true end,
+    sortOrder = 6
+}
+
+DarkRP.createCategory{
+    name = "Sith Army",
+    categorises = "jobs",
+    startExpanded = false,
+    color = Color(34, 85, 85, 255),
+    canSee = function(ply) return true end,
+    sortOrder = 7
+}
+
+DarkRP.createCategory{
+    name = "Sith Order",
+    categorises = "jobs",
+    startExpanded = false,
+    color = Color(34, 85, 85, 255),
+    canSee = function(ply) return true end,
+    sortOrder = 8
+}
