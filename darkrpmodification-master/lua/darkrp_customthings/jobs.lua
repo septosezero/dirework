@@ -19,7 +19,7 @@ Add your custom jobs under the following line:
 --[[
     Naval Cadet
 --]]
-TEAM_REPUBLIC = DarkRP.createJob("Republic Cadet", {
+TEAM_REPUBLICCADET = DarkRP.createJob("Republic Naval Cadet", {
     color = Color(227, 168, 15, 255),
     model = {
         "models/player/scifi_female_04.mdl",
@@ -50,7 +50,7 @@ TEAM_REPUBLIC = DarkRP.createJob("Republic Cadet", {
 --[[
     Naval Crewman
 --]]
-TEAM_REPUBLIC = DarkRP.createJob("Republic Crewman", {
+TEAM_REPUBLICCREW = DarkRP.createJob("Republic Naval Crewman", {
     color = Color(227, 168, 15, 255),
     model = {
         "models/player/scifi_female_04.mdl",
@@ -81,7 +81,7 @@ TEAM_REPUBLIC = DarkRP.createJob("Republic Crewman", {
 --[[
     Naval Officer
 --]]
-TEAM_REPUBLIC = DarkRP.createJob("Naval Officer", {
+TEAM_REPUBLICNAVOFF = DarkRP.createJob("Republic Naval Officer", {
     color = Color(227, 168, 15, 255),
     model = {
         "models/player/scifi_female_04.mdl",
@@ -94,7 +94,7 @@ TEAM_REPUBLIC = DarkRP.createJob("Naval Officer", {
     },
     description = [[The Republic Cadet is an Officer in Training of the Navy]],
     weapons = {"tfa_sw_dc17dual", "climb_swep2", "climb_swep2"},
-    command = "REPNAVYOFFICER",
+    command = "REPNAVOFF",
     max = 10,
     salary = 250,
     admin = 0,
@@ -112,7 +112,7 @@ TEAM_REPUBLIC = DarkRP.createJob("Naval Officer", {
 --[[
     Admiral of the Republic
 --]]
-TEAM_REPUBLIC = DarkRP.createJob("Republic Admiral", {
+TEAM_REPUBLICADM = DarkRP.createJob("Republic Admiral", {
     color = Color(227, 168, 15, 255),
     model = {
         "models/player/scifi_female_04.mdl",
@@ -125,7 +125,7 @@ TEAM_REPUBLIC = DarkRP.createJob("Republic Admiral", {
     },
     description = [[The Admiral of the Republic Navy.]],
     weapons = {"tfa_sw_dc17dual", "climb_swep2", "climb_swep2"},
-    command = "REPADMIRAL",
+    command = "REPADM",
     max = 1,
     salary = 1000,
     admin = 0,
@@ -143,12 +143,12 @@ TEAM_REPUBLIC = DarkRP.createJob("Republic Admiral", {
 --[[
  Republic Trooper
 --]]
-TEAM_REPUBLIC = DarkRP.createJob("Republic Trooper", {
+TEAM_REPUBLICTRP = DarkRP.createJob("Republic Army Trooper", {
     color = Color(227, 168, 15, 255),
     model = {"models/player/gingers_republic_blue/gingers_republic_blue_trooper.mdl"},
     description = [[The Republic Trooper is the backbone of the Republic Army. This ground force is known for it's ability to defend and protect Citizens of the Republic.]],
     weapons = {"tfa_swch_dc17", "weapon_cuff_elastic", "arrest_stick", "unarrest_stick", "climb_swep2" , "keys", "tfa_swch_dc15a"},
-    command = "REPTROOPER",
+    command = "REPUBLICTRP",
     max = 10,
     salary = 250,
     admin = 0,
@@ -166,12 +166,12 @@ TEAM_REPUBLIC = DarkRP.createJob("Republic Trooper", {
 --[[
  Republic Sergeant
 --]]
-TEAM_REPUBLIC = DarkRP.createJob("Republic Sergeant", {
+TEAM_REPUBLICSGT = DarkRP.createJob("Republic Army Sergeant", {
     color = Color(227, 168, 15, 255),
     model = {"models/player/gingers_republic_blue/gingers_republic_blue_officer.mdl"},
     description = [[The Republic Sergeant is a Non-Commissioned Officer in the Army of the Republic.]],
     weapons = {"tfa_swch_dc17", "weapon_cuff_elastic", "arrest_stick", "unarrest_stick", "climb_swep2" , "keys", "tfa_swch_dc15a"},
-    command = "REPSGT",
+    command = "REPUBLICSGT",
     max = 10,
     salary = 400,
     admin = 0,
@@ -190,12 +190,12 @@ TEAM_REPUBLIC = DarkRP.createJob("Republic Sergeant", {
 --[[
  Republic Officer
 --]]
-TEAM_REPUBLIC = DarkRP.createJob("Army Officer", {
+TEAM_REPUBLICARMYOFF = DarkRP.createJob("Republic Army Officer", {
     color = Color(227, 168, 15, 255),
     model = {"models/player/gingers_republic_blue/gingers_republic_blue_officer.mdl"},
     description = [[The Republic Officer is a Commissioned Officer in the Army of the Republic.]],
     weapons = {"tfa_swch_dc17", "weapon_cuff_elastic", "arrest_stick", "unarrest_stick", "climb_swep2" , "keys", "tfa_swch_dc15a"},
-    command = "REPARMYOFFICER",
+    command = "REPARMYOFF",
     max = 10,
     salary = 250,
     admin = 0,
@@ -213,12 +213,12 @@ TEAM_REPUBLIC = DarkRP.createJob("Army Officer", {
 --[[
  Republic General
 --]]
-TEAM_REPUBLIC = DarkRP.createJob("Republic Army General", {
+TEAM_REPUBLICGEN = DarkRP.createJob("Republic Army General", {
     color = Color(227, 168, 15, 255),
     model = {"models/player/gingers_republic_blue/gingers_republic_blue_commander.mdl"},
     description = [[The leader of the Republic’s Ground Forces. ]],
     weapons = {"tfa_swch_dc17", "weapon_cuff_elastic", "arrest_stick", "unarrest_stick", "climb_swep2" , "keys", "tfa_swch_dc15a"},
-    command = "REPGENERAL",
+    command = "REPUBLICGEN",
     max = 1,
     salary = 1000,
     admin = 0,
@@ -238,7 +238,7 @@ TEAM_REPUBLIC = DarkRP.createJob("Republic Army General", {
 --[[
     	Jedi Padawan
 --]]
-TEAM_JEDIORDER = DarkRP.createJob("Jedi Padawan", {
+TEAM_JEDIPADAWAN = DarkRP.createJob("Jedi Padawan", {
     color = Color(222, 166, 6, 255),
     model = {
         "models/padawan2/padawan2.mdl",
@@ -271,7 +271,7 @@ TEAM_JEDIORDER = DarkRP.createJob("Jedi Padawan", {
 --[[
     	Jedi Knight
 --]]
-TEAM_JEDIORDER = DarkRP.createJob("Jedi Knight", {
+TEAM_JEDIKNIGHT = DarkRP.createJob("Jedi Knight", {
     color = Color(222, 166, 6, 255),
     model = {
         "models/gonzo/battlelordsskins/blue/bluebattlelord2.mdl",
@@ -304,7 +304,7 @@ TEAM_JEDIORDER = DarkRP.createJob("Jedi Knight", {
 --[[
     	Jedi Master
 --]]
-TEAM_JEDIORDER= DarkRP.createJob("Jedi Master", {
+TEAM_JEDIMASTER= DarkRP.createJob("Jedi Master", {
     color = Color(222, 166, 6, 255),
     model = {
         "models/gonzo/battlelordsskins/blue/bluebattlelord3.mdl",
@@ -358,55 +358,9 @@ TEAM_CITIZEN = DarkRP.createJob("Galactic Citizen", {
 })
 
 --[[
-    	Pirate
---]]
-TEAM_PIRATE = DarkRP.createJob("Pirate", {
-    color = Color(237, 242, 236, 255),
-    model = {"models/hondoohnaka/hondoohnaka.mdl"},
-    description = [[A pirate of the Galaxy. Mug, steal, extort your way to infamy]],
-    weapons = {"tbd", "tbd", "tbd"},
-    command = "Pirate",
-    max = 10,
-    salary = 250,
-    admin = 0,
-    vote = true,
-    hasLicense = true,
-    candemote = false,
-    category = "Galactic Denizens",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(300)
-        ply:SetHealth(300)
-        ply:SetArmor(200)
-    end
-})
-
---[[
-    	Smuggler
---]]
-TEAM_SMUGGLER = DarkRP.createJob("Smuggler", {
-    color = Color(237, 242, 236, 255),
-    model = {"TBD"},
-    description = [[A smuggler of the galaxy, tasked with importing and exporting Black Market goods.]],
-    weapons = {"tbd", "tbd", "tbd"},
-    command = "Smuggler",
-    max = 2,
-    salary = 250,
-    admin = 0,
-    vote = true,
-    hasLicense = true,
-    candemote = false,
-    category = "Galactic Denizens",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(300)
-        ply:SetHealth(300)
-        ply:SetArmor(200)
-    end
-})
-
---[[
     	Sith Apprentice
 --]]
-TEAM_SITHORDER = DarkRP.createJob("Sith Apprentice", {
+TEAM_SITHAPP = DarkRP.createJob("Sith Apprentice", {
     color = Color(240, 7, 7, 255),
     model = {"TBD"},
     description = [[The Jedi Padawan is an initiate of the Jedi Order, tasked with learning how to use the Force, and Finding a Master to Teach Them.]],
@@ -429,7 +383,7 @@ TEAM_SITHORDER = DarkRP.createJob("Sith Apprentice", {
 --[[
     	Sith Acolyte
 --]]
-TEAM_SITHORDER = DarkRP.createJob("Sith Acolyte", {
+TEAM_SITHACOLYTE = DarkRP.createJob("Sith Acolyte", {
     color = Color(240, 7, 7, 255),
     model = {"TBD"},
     description = [[The Sith Acolyte is an adept of the Sith Order, Tasked with Assisting Their Lords, Learning To Master the Power of the Dark Side, and Asissting the Empire in it's Endeavors]],
@@ -452,12 +406,12 @@ TEAM_SITHORDER = DarkRP.createJob("Sith Acolyte", {
 --[[
     	Sith Lord
 --]]
-TEAM_SITHORDER = DarkRP.createJob("Sith Lord", {
+TEAM_SITHLORD = DarkRP.createJob("Sith Lord", {
     color = Color(240, 7, 7, 255),
     model = {"TBD"},
     description = [[The Sith Lord is an elite of the Sith Order, Successfully having Learned the Full Power Of The Dark Side. They're Tasked with Teaching Apprentices, and Maintaining The Sith Order.]],
     weapons = {"tbd", "tbd", "tbd"},
-    command = "SITHMASTER",
+    command = "SITHLORD",
     max = 3,
     salary = 250,
     admin = 0,
@@ -477,7 +431,7 @@ TEAM_SITHORDER = DarkRP.createJob("Sith Lord", {
 --[[
     	Sith Emperor
 --]]
-TEAM_SITHORDER = DarkRP.createJob("Dark Lord of the Sith", {
+TEAM_SITHDARKLORD = DarkRP.createJob("Dark Lord of the Sith", {
     color = Color(240, 7, 7, 255),
     model = {"TBD"},
     description = [[The Dark Lord of the Sith Empire]],
@@ -501,7 +455,7 @@ TEAM_SITHORDER = DarkRP.createJob("Dark Lord of the Sith", {
 --[[
     Naval Cadet
 --]]
-TEAM_SITH = DarkRP.createJob("Sith Cadet", {
+TEAM_SITHCADET = DarkRP.createJob("Sith Cadet", {
     color = Color(240, 7, 7, 255)
     model = {"models/sith_of_2/sithofficer2_pm.mdl"},
     description = [[The Sith Cadet is an Officer in Training of the Navy]],
@@ -524,7 +478,7 @@ TEAM_SITH = DarkRP.createJob("Sith Cadet", {
 --[[
     Naval Crewman
 --]]
-TEAM_SITH = DarkRP.createJob("Sith Crewman", {
+TEAM_SITHCREW = DarkRP.createJob("Sith Crewman", {
     color = Color(240, 7, 7, 255)
     model = {"models/sith_of_6/sithofficer6_pm.mdl"},
     description = [[The Republic Crewman is responsible for Flight Operations of the Republic Naval Forces]],
@@ -547,12 +501,12 @@ TEAM_SITH = DarkRP.createJob("Sith Crewman", {
 --[[
     Naval Officer
 --]]
-TEAM_SITH = DarkRP.createJob("Sith Naval Officer", {
+TEAM_SITHNAVYOFF = DarkRP.createJob("Sith Naval Officer", {
     color = Color(240, 7, 7, 255)
     model = {"models/sith_of_9/sithofficer9_pm.mdl"},
     description = [[The Sith Naval Officer is A Commander of Sith Naval Forces.]],
     weapons = {"tbd", "tbd", "tbd"},
-    command = "SITHNAVYOFFICER",
+    command = "SITHNAVYOFF",
     max = 10,
     salary = 250,
     admin = 0,
@@ -570,7 +524,7 @@ TEAM_SITH = DarkRP.createJob("Sith Naval Officer", {
 --[[
     Admiral of the Empire
 --]]
-TEAM_SITH = DarkRP.createJob("Sith Admiral", {
+TEAM_SITHADMIRAL = DarkRP.createJob("Sith Admiral", {
     color = Color(240, 7, 7, 255)
     model = {"models/sith_of_8/sithofficer8_pm.mdl"},
     description = [[The Sith Admiral is In Command of the Empire's Naval Forces.]],
@@ -593,12 +547,12 @@ TEAM_SITH = DarkRP.createJob("Sith Admiral", {
 --[[
 	Sith Trooper 
 --]]
-TEAM_SITH = DarkRP.createJob("Sith Trooper", {
+TEAM_SITHTRP = DarkRP.createJob("Imperial Army Trooper", {
     color = Color(240, 7, 7, 255),
     model = {"models/player/gingers_sith_basic/gingers_sith_basic_trooper.mdl"},
     description = [[The Sith Trooper is the backbone of the Sith Empire. This ground force is known for it's ability to defend The Empire, and Form the base of any Invasion Force.]],
     weapons = {"tfa_swch_dc17", "weapon_cuff_elastic", "arrest_stick", "unarrest_stick", "climb_swep2" , "keys", "tfa_swch_dc15a"},
-    command = "SITHTROOPER",
+    command = "SITHARMYTRP",
     max = 10,
     salary = 250,
     admin = 0,
@@ -616,7 +570,7 @@ TEAM_SITH = DarkRP.createJob("Sith Trooper", {
 --[[
 	Sith Sergeant 
 --]]
-TEAM_SITH = DarkRP.createJob("Sith Sergeant", {
+TEAM_SITHSGT = DarkRP.createJob("Imperial Army Sergeant", {
     color = Color(240, 7, 7, 255),
     model = {"models/player/gingers_sith_basic/gingers_sith_basic_officer.mdl"},
     description = [[The Sith Sergeant is a noncommissioned officer of the Sith Empire and responsible for the supervision of his subordinates.]],
@@ -637,9 +591,9 @@ TEAM_SITH = DarkRP.createJob("Sith Sergeant", {
 })
 
 --[[
-	Sith Sergeant 
+	Sith Officer 
 --]]
-TEAM_SITH = DarkRP.createJob("Sith Officer", {
+TEAM_SITH = DarkRP.createJob("Imperial Army Officer", {
     color = Color(240, 7, 7, 255),
     model = {"models/player/gingers_sith_basic/gingers_sith_basic_officer.mdl"},
     description = [[The Sith Officer is a commissioned Officer of the Sith Empire, and is responsible for the supervision of his subordinates.]],
@@ -662,7 +616,7 @@ TEAM_SITH = DarkRP.createJob("Sith Officer", {
 --[[
 	Sith General 
 --]]
-TEAM_SITH = DarkRP.createJob("Sith General", {
+TEAM_SITHGEN = DarkRP.createJob("Imperial Army General", {
     color = Color(240, 7, 7, 255),
     model = {"models/player/gingers_sith_basic/gingers_sith_basic_commander.mdl"},
     description = [[The Sith General is responsible for the Sith Army, and reports directly to the Dark Lord of the Sith.]],
