@@ -17,7 +17,7 @@ Add your custom jobs under the following line:
 ---------------------------------------------------------------------------]]
 
 --[[
-    Naval Cadet
+    Republic Naval Cadet
 --]]
 TEAM_REPUBLICCADET = DarkRP.createJob("Republic Naval Cadet", {
     color = Color(227, 168, 15, 255),
@@ -48,7 +48,7 @@ TEAM_REPUBLICCADET = DarkRP.createJob("Republic Naval Cadet", {
 })
 
 --[[
-    Naval Crewman
+    Republic Naval Crewman
 --]]
 TEAM_REPUBLICCREW = DarkRP.createJob("Republic Naval Crewman", {
     color = Color(227, 168, 15, 255),
@@ -79,7 +79,7 @@ TEAM_REPUBLICCREW = DarkRP.createJob("Republic Naval Crewman", {
 })
 
 --[[
-    Naval Officer
+    Republic Naval Officer
 --]]
 TEAM_REPUBLICNAVOFF = DarkRP.createJob("Republic Naval Officer", {
     color = Color(227, 168, 15, 255),
@@ -110,7 +110,7 @@ TEAM_REPUBLICNAVOFF = DarkRP.createJob("Republic Naval Officer", {
 })
 
 --[[
-    Admiral of the Republic
+    Admiral of the Republic Navy
 --]]
 TEAM_REPUBLICADM = DarkRP.createJob("Republic Admiral", {
     color = Color(227, 168, 15, 255),
@@ -141,7 +141,7 @@ TEAM_REPUBLICADM = DarkRP.createJob("Republic Admiral", {
 })
 
 --[[
- Republic Trooper
+ Republic Army Trooper
 --]]
 TEAM_REPUBLICTRP = DarkRP.createJob("Republic Army Trooper", {
     color = Color(227, 168, 15, 255),
@@ -164,7 +164,7 @@ TEAM_REPUBLICTRP = DarkRP.createJob("Republic Army Trooper", {
 })
 
 --[[
- Republic Sergeant
+ Republic Army Sergeant
 --]]
 TEAM_REPUBLICSGT = DarkRP.createJob("Republic Army Sergeant", {
     color = Color(227, 168, 15, 255),
@@ -188,7 +188,7 @@ TEAM_REPUBLICSGT = DarkRP.createJob("Republic Army Sergeant", {
 
 
 --[[
- Republic Officer
+ Republic Army Officer
 --]]
 TEAM_REPUBLICARMYOFF = DarkRP.createJob("Republic Army Officer", {
     color = Color(227, 168, 15, 255),
@@ -211,7 +211,7 @@ TEAM_REPUBLICARMYOFF = DarkRP.createJob("Republic Army Officer", {
 })
 
 --[[
- Republic General
+ Republic Army General
 --]]
 TEAM_REPUBLICGEN = DarkRP.createJob("Republic Army General", {
     color = Color(227, 168, 15, 255),
