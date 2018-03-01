@@ -60,7 +60,7 @@ DarkRP.createCategory{
 }
 
 DarkRP.createCategory{
-    name = "Galactic Denizens",
+    name = "Sith Navy",
     categorises = "jobs",
     startExpanded = false,
     color = Color(34, 85, 85, 255),
@@ -69,7 +69,7 @@ DarkRP.createCategory{
 }
 
 DarkRP.createCategory{
-    name = "Sith Navy",
+    name = "Sith Army",
     categorises = "jobs",
     startExpanded = false,
     color = Color(34, 85, 85, 255),
@@ -78,19 +78,10 @@ DarkRP.createCategory{
 }
 
 DarkRP.createCategory{
-    name = "Sith Army",
-    categorises = "jobs",
-    startExpanded = false,
-    color = Color(34, 85, 85, 255),
-    canSee = function(ply) return true end,
-    sortOrder = 7
-}
-
-DarkRP.createCategory{
     name = "Sith Order",
     categorises = "jobs",
     startExpanded = false,
     color = Color(34, 85, 85, 255),
     canSee = function(ply) return true end,
-    sortOrder = 8
+    sortOrder = 7
 }
