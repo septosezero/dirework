@@ -1,11 +1,11 @@
-"darkrp"
+"starwarsrp"
 {
 	"base"		"sandbox"
-    "title"  "DarkRP"
-    "version"   "2.7.0"
+    "title"  "starwarsrp"
+    "version"   "1.0"
     "menusystem"	"1"
 
-    "author_name"   "FPtje Falco et al."
+    "author_name"   "Made By Grandmaster Yoda"
     "author_email"  ""
     "author_url"    "https://github.com/FPtje/DarkRP"
 
