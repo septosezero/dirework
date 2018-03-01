@@ -1,5 +1,6 @@
-# DarkRP
-A roleplay gamemode for Garry's Mod.
+# swtorRP
+A Star Wars Old Republic roleplay gamemode for Garry's Mod.
+Created By Yoda for use on the Bandit Gaming SWTOR RP Server.
 
 ## Getting DarkRP
 Please use either git or the workshop.
